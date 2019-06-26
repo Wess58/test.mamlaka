@@ -1,0 +1,86 @@
+body {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+.welcome {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #239f2a, #fff5, transparent), url("images/largescrn.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  width: 250px;
+  height: 120px;
+}
+
+.container {
+  padding: 2%;
+}
+
+.heading1 {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.borderBottom1 {
+  height: 3px;
+  width: 500px;
+  background-color: #0007;
+}
+
+.paragraph {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.borderBottom2 {
+  height: 3px;
+  width: 500px;
+  background-color: #0007;
+}
+
+.capitalize {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.signUpBtn {
+  border-radius: 20px;
+  background-color: #239f2a;
+  font-weight: 600;
+}
+
+.signUpBtn span {
+  transition: all .2s ease;
+}
+
+.signUpBtn:hover span {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .welcome {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #239f2a77 100%, #fff5, transparent), url("images/smallscrn.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .borderBottom1 {
+    height: 3px;
+    width: 200px;
+    background-color: #0007;
+  }
+}
