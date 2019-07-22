@@ -1,6 +1,6 @@
 body {
   scroll-behavior: smooth;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 .welcome {
@@ -13,6 +13,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: top;
   background-attachment: fixed;
 }
 
@@ -34,11 +35,11 @@ body {
 .borderBottom1 {
   height: 3px;
   width: 420px;
-  background-color: #0007;
+  background-color: #fff;
 }
 
 .paragraph {
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
@@ -53,12 +54,16 @@ body {
   font-size: 26px;
 }
 
-.signUpBtn {
+.signUpBtn,
+.signUpBtn:focus,
+.signUpBtn:active  {
   color: #000;
   text-decoration: none;
   border-radius: 20px;
   background-color: #239f2a;
   font-weight: 600;
+  box-shadow: 0 20px 30px 1px rgba(0, 0, 0, 0.5);
+
 }
 .signUpBtn:hover {
   color: #000;
@@ -93,4 +98,5 @@ body {
     width: 200px;
     background-color: #fff;
   }
+
 }
