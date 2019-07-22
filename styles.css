@@ -5,9 +5,9 @@ body {
 
 .welcome {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   color: #fff;
-  background-image: linear-gradient( 145deg, #239f2a77 30%, #0006 60%, #0002 90%), url("images/largescrn.jpg");
+  background-image: linear-gradient(145deg, #000, #0009 80%, #0002 90%), url("images/activity-adult-adventure.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -21,21 +21,30 @@ body {
   width: 250px;
   height: 120px;
 }
+.col-md-10{
+  margin-left: 30px;
+  margin-right: 0;
+}
 
 .container {
-  padding: 2%;
+  padding: 1.19%;
+}
+
+.borderLeft {
+  border-right: 6px solid green;
+  height: 200px;
+  overflow-y: hidden;
 }
 
 .heading1 {
   font-weight: 600;
   letter-spacing: 2px;
-
 }
 
 .borderBottom1 {
-  height: 3px;
-  width: 420px;
-  background-color: #fff;
+  height: 1px;
+  width: 100;
+  background-color: #239f2a88;
 }
 
 .paragraph {
@@ -49,33 +58,45 @@ body {
   background-color: #0007;
 }
 
+.date {
+  margin-left: 10px;
+}
+
 .capitalize {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 22px;
+}
+
+.capitalize span {
+  font-size: 40px !important;
 }
 
 .signUpBtn,
 .signUpBtn:focus,
-.signUpBtn:active  {
-  color: #000;
+.signUpBtn:active {
+  color: #fff;
   text-decoration: none;
   border-radius: 20px;
   background-color: #239f2a;
   font-weight: 600;
-  box-shadow: 0 20px 30px 1px rgba(0, 0, 0, 0.5);
-
+  /* box-shadow: 0 20px 30px 1px rgba(0, 0, 0, 0.5); */
 }
+
 .signUpBtn:hover {
-  color: #000;
-
+  color: #fff;
 }
 
-.signUpBtn span {
+/* .signUpBtn span {
   transition: all .2s ease;
 }
 
 .signUpBtn:hover span {
   margin-left: 20px;
+} */
+.footer {
+  background-color: #000;
+  color: #fff;
+  line-height: 5px;
 }
 
 @media (max-width: 768px) {
@@ -83,7 +104,7 @@ body {
     width: 100%;
     height: 100%;
     color: #fff;
-    background-image: linear-gradient(to bottom right , #0007 80%, transparent), url("images/smallscrn.jpg");
+    background-image: linear-gradient(145deg, #000, #0009 80%, #0002 90%), url("images/activity-adult-adventure.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,8 +116,11 @@ body {
 
   .borderBottom1 {
     height: 3px;
-    width: 200px;
-    background-color: #fff;
+    width: 100%;
+    background-color: #239f2a;
   }
-
+  .capitalize  {
+    font-size: 20px;
+  }
+  
 }
